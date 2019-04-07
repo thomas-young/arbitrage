@@ -129,7 +129,10 @@ def arbitrage(start_coin):
     # print(path)
     # print(rates)
 
-    print(printPath(path, rates))
+    # print(printPath(path, rates))
+
+    print(path)
+    return path, rates
 
     # max = 0
     # starting_coin = None
