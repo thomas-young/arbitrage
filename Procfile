@@ -1,1 +1,1 @@
-web: gunicorn app: market_api
+web: gunicorn
