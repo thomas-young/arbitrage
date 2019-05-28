@@ -58,7 +58,7 @@ def master_modulate_price():
             coin_df = histo_df.copy(deep=True)
             for index, row in coin_df.iterrows():
                 old_price = row['close']
-                variability = random.uniform(0, .5)
+                variability = random.uniform(0, 10)
                 variability = variability / 100
                 diff = variability * old_price
                 add = random.randint(0,1)
